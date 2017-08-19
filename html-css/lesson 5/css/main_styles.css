@@ -1,0 +1,31 @@
+#wrapper {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px;
+  border-top: 7px solid #f3b113;
+  box-shadow: 0 0 2px;
+  padding: 2px 50px 20px 50px;
+}
+
+footer {
+  text-align: center;
+}
+#footer {
+  margin: 0 auto;
+}
+.footer_text {
+  font-size: 0.7em;
+  color: #8c8c8c;
+}
+.footer_title_text {
+  font-size: 2.2em;
+  padding-bottom: 15px;
+  color: #000;
+  text-align: left;
+}
+.footer_title_logo {
+  background-image: url(../img/circle.png);
+  background-repeat: no-repeat;
+  background-position: 85% 0%;
+}
