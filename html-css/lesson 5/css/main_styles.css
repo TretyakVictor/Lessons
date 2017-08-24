@@ -7,7 +7,131 @@
   box-shadow: 0 0 2px;
   padding: 2px 50px 20px 50px;
 }
-
+/*Шапка*/
+.header_title_logo {
+  background-image: url(../img/circle.png);
+  background-size: 75px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+  width: 55px;
+  height: 55px;
+}
+.header_title_text {
+  font-size: 2.3em;
+  padding-right: 35px;
+}
+.header_title_line {
+  border-left: 1px solid #cac8c5;
+  padding-right: 35px;
+}
+.header_title_text_main {
+  color: #f3b215;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.header_title_text_slave {
+  color: #b6b6b6;
+}
+/*Навигация*/
+.menu_links {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  border-top: 1px solid #ababab;
+  border-bottom: 1px solid #ababab;
+}
+.menu_links a {
+  text-decoration: none;
+  color: #929292;
+}
+.menu_links a:hover {
+  color: #f3b215;
+  transition: 0.5s;
+}
+.menu_links td {
+  padding-right: 65px;
+}
+/*Контент*/
+.content_block1_title {
+  text-transform: uppercase;
+  color: #555656;
+  font-size: 0.8em;
+}
+#content_block1_img1 {
+  width: 450px;
+  height: 252px;
+  background-image: url(../img/img1.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+#content_block1_img2 {
+  width: 453px;
+  height: 205px;
+  background-image: url(../img/img2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #000;
+}
+#content_block1_arrowl {
+  min-width: 55px;
+  height: 25px;
+  background-image: url(../img/arrowl.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#content_block1_sm_text {
+  min-width: 330px;
+  font-size: 1.3em;
+}
+#content_block1_arrowr {
+  min-width: 55px;
+  height: 25px;
+  background-image: url(../img/arrowr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content_block1_more_main {
+  text-align: right;
+}
+.content_block1_more {
+  color: #fff;
+  background-color: #000;
+  max-width: 30px;
+}
+.content_block2_top_line {
+  border-bottom: 1px solid #000;
+}
+.clients_top_cell {
+  height: 10px;
+}
+.clients_top_line_small {
+  border-top: 1px solid #ababab;
+  width: 5%;
+  padding-top: 15px;
+}
+.clients_top_line_big {
+  border-top: 1px solid #ababab;
+  width: 83.1%;
+  padding-top: 15px;
+}
+.clients_top_text {
+  text-transform: uppercase;
+  color: #343434;
+}
+#clients_content {
+  height: 54px;
+  background-image: url(../img/copmany_03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clients_bottom_line {
+  padding-top: 30px;
+  border-bottom: 1px solid #ababab;
+}
+/*Подвал*/
 footer {
   text-align: center;
 }
@@ -15,14 +139,22 @@ footer {
   margin: 0 auto;
 }
 .footer_text {
-  font-size: 0.7em;
   color: #8c8c8c;
 }
 .footer_title_text {
-  font-size: 2.2em;
+  font-size: 1.6em;
   padding-bottom: 15px;
   color: #000;
   text-align: left;
+}
+.footer_links a {
+  text-decoration: none;
+  font-size: 0.7em;
+  color: #8c8c8c;
+}
+.footer_links a:hover {
+  color: #f3b215;
+  transition: 0.5s;
 }
 .footer_title_logo {
   background-image: url(../img/circle.png);
