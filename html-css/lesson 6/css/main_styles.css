@@ -1,0 +1,95 @@
+#first_block, #second_block {
+  border: 1px solid #000;
+}
+#first_block {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+#first_block div {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+#first_block > div:nth-child(1) {
+  background-color: #0f0;
+}
+#first_block > div:nth-child(3) {
+  background-color: #000;
+}
+#first_block > div:nth-child(4) {
+  background-color: #f00;
+}
+#second_block {
+  padding: 20px;
+  margin-left: 20px;
+  float: left;
+  background-color: #aaa;
+}
+#second_block div {
+  width: 300px;
+  height: 160px;
+  background-color: #f00;
+}
+#third_block_1, #third_block_2, #third_block_3 {
+  position: absolute;
+  margin-top: 160px;
+  width: 100px;
+  height: 100px;
+  background-color: #00f;
+}
+#third_block_1 {
+  margin-left: 160px;
+  z-index: -1;
+}
+#third_block_2 {
+  margin-left: 270px;
+}
+#third_block_3 {
+  margin-left: 380px;
+  z-index: -1;
+}
+/*Menu*/
+#menu {
+  position: absolute;
+  margin-top: 300px;
+  padding: 20px;
+  width: 650px;
+  height: 150px;
+  border: 2px solid #000;
+  background-color: #eee;
+}
+#menu > div {
+  margin: 10px;
+  width: 110px;
+  height: 150px;
+  float: left;
+}
+#menu a {
+  color: #fff;
+}
+#menu a:hover {
+  color: #ffea32;
+}
+#menu > div:hover {
+  outline: #000 solid 1px;
+}
+.ref {
+  height: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #c12018;
+}
+.ref:hover {
+  background-color: #000;
+  transition: 0.5s;
+}
+.img {
+  background-image: url(../img/image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90px;
+  padding: 5px;
+  height: 100px;
+}
